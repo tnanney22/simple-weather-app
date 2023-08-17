@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper {
+  padding: 50px;
+  border: 0.1px solid rgb(96, 96, 96); 
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  background: rgba(212, 8, 8, 0.712);
+  box-shadow: 0 8px 32px 0 rgba(212, 8, 8, 0.712);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.app__image {
+  margin: 24px;
+  max-height: 500px;
+  width: auto;
+  border-radius: 10px;
+}
+.location_searcher {
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #0b0a0a;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.location_input {
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.429);
+  color: black;
+  border-radius: 5px;
+}
+
+.temp {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+*/
